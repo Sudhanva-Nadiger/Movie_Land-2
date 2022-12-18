@@ -1,0 +1,22 @@
+@import './src/common/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    font-family:  "Poppins";
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: $primary-color;
+}
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
